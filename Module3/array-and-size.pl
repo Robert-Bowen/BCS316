@@ -1,4 +1,6 @@
-use 5.13.0;
+#Another example of how to get array sizes.
+
+use 5.28.0;
 use warnings;
 use strict;
 my @array1 = qw (Work Play Dull);
