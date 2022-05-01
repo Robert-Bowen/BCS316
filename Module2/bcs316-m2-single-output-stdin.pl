@@ -1,4 +1,6 @@
-use 5.20.0;
+#RB-BCS316
+#Example of simple use of STDIN.  We take in a name, store it in $name, chomp it to remove the line feed (newline) and display it to the user.
+use 5.28.0;
 
 say "Enter your name";
 
