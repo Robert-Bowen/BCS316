@@ -1,4 +1,7 @@
-use 5.20.0;#Allows us to use the say function
+#RB-BCS316
+#Example of taking user input into a scalar.
+# We predefine the 2 scalar variables and then populate them with input from the user.
+use 5.28.0;#Allows us to use the say function
 my $Fname; #Predefine the scalars $Fname and $Lname
 my $Lname;
 
