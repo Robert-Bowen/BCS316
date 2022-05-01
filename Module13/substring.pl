@@ -1,10 +1,9 @@
-#!/usr/bin/perl
-
+#Finds a string and replaces it.
 use strict;
 use warnings;
 use 5.13.0;
-use Term::ANSIScreen qw(cls);
-cls();
+use Term::ANSIScreen qw(cls); 
+cls(); #We use this to prevent a call to the OS to do it.
 
 
 sub fixscreen {my $counter = 0; while ($counter < 5) {say "";$counter ++;}}

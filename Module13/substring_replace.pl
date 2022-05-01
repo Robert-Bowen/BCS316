@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#Another example of substr
 
 use strict;
 use warnings;

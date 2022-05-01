@@ -1,0 +1,8 @@
+9 - Clone ppt 1,2-43, 50-54
+10 - Split, Substitute
+11 - Use BCS316-Class7 Conditional... .pdf
+12 - Use Slides (7).pdf 
+13 - Index, rindex, sprintf, advanced sorting
+14 - Most of .ppt is done
+
+Need final project module
