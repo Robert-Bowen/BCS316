@@ -1,3 +1,5 @@
+#RB-BCS316
+#Illustrates the difference between using print and say.
 use 5.28.0; #Allows us to use the say function
 
 #The print function does not put a newline character at the end of each line
