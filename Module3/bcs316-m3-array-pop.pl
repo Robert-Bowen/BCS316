@@ -1,3 +1,4 @@
+#RB-BCS316
 #Demonstrates the pop function by creating an array called @array and populating that with the numbers 5-9
 # it then pops off the numbers and puts them into the 2 scalar variables ($bart and $homer.)
 # Uses code from Learning Perl 7th 6th edition
