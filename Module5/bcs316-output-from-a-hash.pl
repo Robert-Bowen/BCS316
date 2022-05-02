@@ -1,8 +1,9 @@
-#Populates an array with some items and their prices.
+#RB-BCS316
+#Populates a hash with some items and their prices.
 
 use strict;
 use warnings;
-use 5.28.0;
+use 5.23.0;
 use Data::Dumper qw(Dumper);
 
 my $prices;
