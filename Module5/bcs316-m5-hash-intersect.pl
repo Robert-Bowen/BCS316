@@ -1,5 +1,6 @@
-use strict;
-use warnings;
+#RB-BCS316
+#Gets the intersection of two arrays by using a hash.
+use 5.23.0;
 no warnings 'qw'; #Tell perl not to complain about input because
 				#we are inputting it like this
 				#on purpose.
