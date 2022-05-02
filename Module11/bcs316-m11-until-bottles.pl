@@ -1,7 +1,6 @@
+#RB-BCS316
 #Shows how to use Until loop as an alternative to while
-use 5.13.0;
-use strict;
-use warnings;
+use 5.23.0;
 
 my $bottles_of_beer = 100;
 

@@ -1,8 +1,9 @@
-use 5.13.0;
-use strict;
-use warnings;
-## We declare, but do not define $dino
-my $dino;
+#RB-BCS316
+#Shows the use of the elsif function by taking user input.
+# Please expermint with different inputs.
+use 5.23.0;
+my $dino = <STDIN>;
+chomp $dino;
 if ( ! defined $dino) {
 print "The value is undef.\n";
 } elsif ($dino =~ /^-?\d+\.?$/) {

@@ -1,6 +1,7 @@
-use 5.13.0;
-use strict;
-use warnings;
+#RB-BCS316
+#Shows the use of the redo function by prompting the user for input and if they don't match
+# what's displayed on the screen it calls the redo function.
+use 5.23.0;
 
 # Typing test
 my @words = qw{ college exam grades steam epic r2d2 };
