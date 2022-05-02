@@ -1,5 +1,6 @@
-use warnings;
-use strict;
+#RB-BCS316
+#Takes lines of standard input and looks for either abc or xyz..
+use 5.23.0;
 
 while (<STDIN>) {
 

@@ -1,5 +1,5 @@
-use strict;
-use warnings;
+#RB-BCS316
+#Looks for different variations of the word "the" by looking for either an upper or lowercase "T"
 use 5.20.0;
 my $line1;
 say "Enter a line of text and I will tell you if it contains the phrase the:";
