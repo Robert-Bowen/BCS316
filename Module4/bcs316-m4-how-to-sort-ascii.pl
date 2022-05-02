@@ -1,7 +1,7 @@
-
-use 5.13.0;
-use strict;
-use warnings;
+#RB-BCS316
+#Shows how to correctly sort an array with letters in it.
+# Uses Data::Dumper to display the output
+use 5.23.0;
 use Data::Dumper qw(Dumper);
 my $feet;
 my $teeth;
