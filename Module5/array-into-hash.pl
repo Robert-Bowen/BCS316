@@ -1,3 +1,4 @@
+#RB-BCS316
 #This takes an array and puts the values into a hash.
 # apple will be the key and red will be the value
 # followed by blueberry as the key and blue the value, etc.
@@ -8,7 +9,7 @@
 
 use strict;
 use warnings;
-use 5.28.0;
+use 5.23.0;
 
 
 use strict;
