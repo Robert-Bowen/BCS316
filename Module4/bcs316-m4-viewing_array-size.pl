@@ -1,6 +1,5 @@
-use strict;
-use warnings;
-use 5.13.0;
+#Shows a few ways of displaying the size of an array.
+use 5.23.0;
 use Data::Dumper;
 
 my @cars = ("Tacoma","Firebird","Camaro","Corvette","RX-3","BMW 2002","Yellow Submarine");
