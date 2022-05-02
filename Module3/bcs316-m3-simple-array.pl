@@ -1,6 +1,7 @@
-use warnings;
-use strict;
-use 5.13.0;
+#RB-BCS316
+#Creates an array with 4 superheroes and then selects a random number.  The random number is then used
+# as the array index to display one of the superheroes.
+use 5.23.0;
 my @superhero;
 my $select;
 $superhero [0] = "Batman";
