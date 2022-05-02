@@ -1,7 +1,7 @@
-use 5.13.0;
-use strict;
-use warnings;
+#RB-BCS316
+#Creates some hashes, each with car manufacturer, model and color.  Then passes them into an array via references.
 
+use 5.23.0;
 
 my %car1 = (		manufacturer => 'BMW',
  			model => '2002',
