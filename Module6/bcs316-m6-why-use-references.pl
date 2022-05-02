@@ -1,10 +1,12 @@
-@arr1 = (1, 2, 3);
+#RB-BCS316
+# Example code for why we need to use references when we are combining data from multiple hashes or arrays.
+@arr1 = (1, 2, 3); #Creates an array with 3 elements
 @arr2 = (4, 5, 6);
 check_size(\@arr1, \@arr2);
 
-sub check_size {
+sub check_size { 
  my ($a1, $a2) = @_;
- print @$a1 == @$a2 ? 'Yes' : 'No';
+ print @$a1 == @$a2 ? 'Yes' : 'No'; #This will evaluate to true if both arrays passed to the subroutine are the same size.
  print "\n";
  print @$a1 . "\n";
  print @$a2 . "\n";
