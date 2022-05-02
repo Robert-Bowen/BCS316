@@ -1,5 +1,6 @@
+#RB-BCS316
 #Creates a hash and displays it various ways.
-use 5.28.0;
+use 5.23.0;
 my %hash1=('Intel' => 'Pentium_Core', 'AMD' => 'Ryzen', 'Apple' => 'M1 Plus');
 print "The value for the key AMD is " . $hash1{AMD}; 
 print "\n";
