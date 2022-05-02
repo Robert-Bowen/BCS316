@@ -1,7 +1,7 @@
 #RB-BCS316
 #Performs a basic sort on the array. We will learn better ways 
 # later in the course.
-use 5.28.0;
+use 5.23.0;
 use warnings;
 use strict;
 my @array1 = qw (Work Play Dull);
