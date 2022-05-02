@@ -1,8 +1,7 @@
-use strict;
-use warnings;
+#RB-BCS316
+#Shows 3 of the ways we can get the size of an array 
 use 5.28.0;
 
-#Show us 3 of the ways we can get the size of an array 
     
 #Creates an array with 12 elements. 
     my @many_strings = ("abc", "cd", "e", "fg", "hi", "hello world", "abc", "cd", "e", "fg", "hi", "hello world");
