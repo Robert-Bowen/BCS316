@@ -1,4 +1,8 @@
-use 5.13.0;
+#RB-BCS316
+#Shows how not using a reference "breaks" the data when multiple arrays or hashes are put into an array.
+#Creates some hashes, each with car manufacturer, model and color.  Then passes them into an array but doesn't use references.
+# bcs316-m6-hash-reference-example2.pl shows how to do this correctly
+use 5.23.0;
 use strict;
 use warnings;
 
