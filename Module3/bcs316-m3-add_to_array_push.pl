@@ -1,4 +1,6 @@
-use 5.13.0;
+#RB-BCS316
+#Uses the push function to add data to an array.
+use 5.23.0;
 my @rocks;
 my $end;
 my $number_of_rocks;
@@ -42,7 +44,7 @@ $number_of_rocks = $end + 1;
 
 say 'This will add element number ' . $number_of_rocks;
 
-$rocks[ $number_of_rocks ] = $newrock;
+push @rocks, $newrock;
 
 say 'The last element is now ' . $rocks[-1];
 
