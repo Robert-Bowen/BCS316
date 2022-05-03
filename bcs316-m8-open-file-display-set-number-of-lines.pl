@@ -1,7 +1,10 @@
-use 5.13.0;
+#RB-BCS316
+#This script opens a file and displays the first 20 lines. 
+use 5.23.0;
+
 my @data;
 my $line;
-my $count =0;
+my $count =0; #holds the counter of lines
 
 my $file_data = 'vgsales.csv' ;
 open INFILE, "$file_data" ; 
