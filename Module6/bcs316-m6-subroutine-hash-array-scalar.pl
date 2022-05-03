@@ -1,5 +1,7 @@
-use strict;
-use warnings;
+#RB-BCS316
+#This script shows an example of passing and array, a hash, and a scalar to a subroutine.
+use 5.23.0;
+
 
 my $scalar = 'text';
 my @array = (1, 2, 3);
