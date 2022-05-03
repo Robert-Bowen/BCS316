@@ -5,4 +5,4 @@ use WWW::Mechanize;
     my $mech = WWW::Mechanize->new();
     my $url = "http://www.suny.edu";
     $mech->get( $url );
-    $mech->dump_text;
+    $mech->dump_text; #Shows the text.  dump_links contains functions to print the text.  You don't need to write code to do it.
