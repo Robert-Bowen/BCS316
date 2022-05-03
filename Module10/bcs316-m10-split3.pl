@@ -1,4 +1,3 @@
-
 #RB-BCS316
 #This example is the same as the previous one but shows each element of the array and what it contains
 use 5.23.0;
