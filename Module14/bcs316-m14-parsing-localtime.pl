@@ -1,7 +1,6 @@
-use 5.13.0;
-use warnings;
-use strict;
-
+#RB-BCS316
+#This script shows an example of reading the time/day/date from the OS and parsing it.
+use 5.23.0;
  my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) =
                                                 localtime(time);
 
