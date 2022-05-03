@@ -1,4 +1,8 @@
-use 5.13.0;
+#RB-BCS316
+#This script shows an example of how to read a random line from a file.
+# We do it 6 times. 
+use 5.23.0;
+
 use List::MoreUtils qw(uniq);
 my @randomRock;
 open (my $data , '<', "rocks")|| die "The rocks are missing\n$!";
