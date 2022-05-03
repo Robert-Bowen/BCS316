@@ -1,6 +1,7 @@
-use strict;
-use warnings;
-use 5.13.0;
+#RB-BCS316
+#This script shows an example of subroutines.  The user is prompted for some numbers which are pushed onto an array.  Then the total number of elements
+# in the array is determined and the sum of the element values is divided to get the average.
+use 5.23.0;
 my $n;
 my $sum;
 my $item;
