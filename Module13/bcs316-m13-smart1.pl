@@ -1,8 +1,10 @@
-#!/usr/bin/perl
+#RB-BCS316
+#This script shows an example of using the smartmatch feature (function)
 
-use strict;
-use warnings;
-use 5.13.0;
+# We can use the line use experimental 'smartmatch'; to suppress the warnings that smartmatch is experimental.  That line has to be above use 5.23.0 since 
+# use 5.23.0 brings in use warnings; by default
+use 5.23.0;
+
 my %names = (
     "Fred",  "Rogers",
     "Big", "Bird",
