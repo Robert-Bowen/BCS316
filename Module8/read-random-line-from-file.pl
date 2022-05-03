@@ -1,4 +1,7 @@
-use 5.13.0;
+#RB-BCS316
+#This script is similar to the previous rocks script from Modules 3 and 4 but grabs a random rock from the file rocks.
+use 5.23.0;
+
 use List::MoreUtils qw(uniq);
 
 my @randomRock;
