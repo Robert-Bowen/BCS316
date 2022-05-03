@@ -1,5 +1,8 @@
+#RB-BCS316
+#This script shows an example of how to create a timer to show how long code takes to execute.
+use 5.23.0;
+
 use Time::HiRes qw(gettimeofday);
-use 5.13.0;
 my $counter = 0;
 say "Enter a number to count to: ";
 my $countto = <STDIN>;
