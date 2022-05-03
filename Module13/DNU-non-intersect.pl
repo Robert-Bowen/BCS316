@@ -1,5 +1,6 @@
-use strict;
-use warnings;
+#RB-BCS316
+#This script shows an example of how to get the non-intersection of arrays, or better said the elements that only appear in one array and not the others.
+use 5.23.0;
 no warnings 'qw';
 # We start with 3 arrays - @produce (all produce items), @vegetables (the veggies), and @fruits (the fruits)
 
