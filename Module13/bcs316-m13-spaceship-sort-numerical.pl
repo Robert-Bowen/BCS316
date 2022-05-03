@@ -1,6 +1,7 @@
-#!/usr/bin/perl
-use 5.13.0;
-say "";
+#RB-BCS316
+#This script shows an example of the spaceship sort which is required to properly sort numerical data.
+use 5.23.0;
+say ""; #just outputs a blank line for formatting
 my @numb = qw(1 12 14 7 6 65 4 44 19 91 9 10);
 say "Before Sort";
 print "@numb\n";
