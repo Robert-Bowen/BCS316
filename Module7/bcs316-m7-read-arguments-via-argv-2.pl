@@ -1,7 +1,6 @@
-#!/usr/bin/perl
-use strict;
-use warnings;
-use 5.13.0;
+#RB-BCS316
+#This script shows how to view the arguments passed to the script on the command line.
+# Try running it with some space separated arguments to see what is sent into the Perl script.
 
 ## Reads the file(s) entered at the command line
 ## Checks to see if an argument was passed and if not, it calls the function die and 
