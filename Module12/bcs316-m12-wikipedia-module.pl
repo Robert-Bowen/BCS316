@@ -1,3 +1,6 @@
+#RB-BCS316
+#This script shows an example of how to use the WWW::Wikipedia module to search for a string that will be used as the 
+# search term on Wikipedia
 use 5.13.0;
 use warnings;
 use strict;
