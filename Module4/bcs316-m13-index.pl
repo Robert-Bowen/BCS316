@@ -1,13 +1,9 @@
-#!/usr/bin/perl
+#RB-BCS316
+#Uses the index function to find the location of the words in the @word array.
+#Remember that index starts counting from the left and gives you the position from the left
+#The first character of the string to look through is position 0 so in the example below the word "quick" will be found at position 4 (letter 5)
 
-use strict;
-use warnings;
-use 5.13.0;
-
-
-
-use Term::ANSIScreen qw(cls);
-cls();
+use 5.23.0;
 
 my $phrase = "The quick brown fox jumped over the lazy dog.";
 my @word = qw (quick fox lazy dog);
