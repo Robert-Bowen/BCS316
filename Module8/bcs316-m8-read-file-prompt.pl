@@ -1,3 +1,6 @@
+#RB-BCS316
+#This script opens a file and searches for all lines matching the input.  The input is a 2 character state name in this case.
+use 5.23.0;
 print "What state would you like to search?  Use the 2 letter code (example - CA - California, NY - New York, etc.)\n";
 my $state = <STDIN>;
 chomp $state;
