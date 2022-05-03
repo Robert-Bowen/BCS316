@@ -1,6 +1,7 @@
-use 5.13.0;
-use strict;
-use warnings;
+#RB-BCS316
+#This script shows an example of a elsif function.
+use 5.23.0;
+## We declare and define $dino as null.  
 my $dino = "";
 if ( ! defined $dino) {
 print "The value is undef.\n";
