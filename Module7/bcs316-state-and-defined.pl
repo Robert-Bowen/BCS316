@@ -1,12 +1,11 @@
+#RB-BCS316
 ## Uses defined to check to see if $last_person is empty.  If it is
 ## it tells the first person they are the only one here.
 ## If it is defined, it looks at the value of $last_person
 ## which is set after the first subroutine runs
 
-#!/usr/bin/perl
-use 5.13.0;
 sub greet {
-state $last_person;
+state $last_person; #state is similar to my but can't be overwritten.
 my $name = shift;
 print "Hi $name! ";
 if( defined $last_person ) {
