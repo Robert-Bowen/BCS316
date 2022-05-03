@@ -1,7 +1,6 @@
-#!/usr/bin/perl
-use 5.13.0;
-use strict;
-use warnings;
+#RB-BCS316
+#This script shows an example of how to properly sort alphabetical characters.
+use 5.23.0;
 use Data::Dumper qw(Dumper);
 
 my @bunchOfLetters = qw (Z X C v b n m L W E a A B C Apple);
