@@ -1,7 +1,6 @@
-use 5.13.0;
-use strict;
-use warnings;
-
+#RB-BCS316
+#This script shows an example of reading the time/day/date from the OS and parsing it.  This script gets more granular with what it outputs.
+use 5.23.0;
 my $now_string = localtime;  
 
 say "Before isolating day of week and changing to long format";
