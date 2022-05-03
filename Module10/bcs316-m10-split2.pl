@@ -1,6 +1,6 @@
-use 5.13.0;
-use warnings;
-use strict;
+#RB-BCS316
+#This script shows an example of using split.  It uses Data::Dumper to display the output.
+use 5.23.0;
 #This script uses the Data::Dumper module to quickly dump the contents of a variable (array in this case.)
 #To see that process done via a loop, see the previous example.
 use Data::Dumper qw(Dumper);
