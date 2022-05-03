@@ -1,17 +1,9 @@
-#!/usr/bin/perl
+#RB-BCS316
+#Uses the rindex function to find the location of the word "the" in the string.
+#Remember that index starts counting from the left and gives you the position from the left
+# rindex starts counting from the right but gives you the position from the left.
+#The first character of the string to look through is position 0.
 
-use strict;
-use warnings;
-use 5.13.0;
-sub fixscreen {
-my $counter = 0;
-
-while ($counter < 5) {
-  say "";
-  $counter ++;
-}}
-use Term::ANSIScreen qw(cls);
-cls();
 
 
 my $where;
@@ -25,4 +17,4 @@ say "The word " . $word . " was found at location " . $where . " using index.";
 $where = rindex ($phrase, $word);
 say "The word " . $word . " was found at location " . $where . " using rindex.";
 say "";
-fixscreen;
+
