@@ -1,5 +1,5 @@
 #RB-BCS316
-#This script shows an example of how to properly sort alphabetical characters.
+#This script shows an example of how to properly sort alphabetical characters.  It uses Data::Dumper to display values.
 use 5.23.0;
 use Data::Dumper qw(Dumper);
 
