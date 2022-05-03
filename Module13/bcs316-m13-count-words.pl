@@ -1,12 +1,11 @@
-#This is a very rudimentary way to get a wordcount from a file of words
+#RB-BCS316
+#Example of a very rudimentary way to get a wordcount from a file of words
 
 # You can test this with the file StarWars-4-6-Dialogue_only.txt
 # And you can output the result to a file by using - perl count-words.pl StarWars-4-6-Dialogue_only.txt  > wordcount.out
 # Or we could modify the script to write to a file
 
-use 5.13.0;
-use strict;
-use warnings;
+use 5.23.0;
  
 my %count;
 my $file = shift or die "Usage: $0 FILE\n";
