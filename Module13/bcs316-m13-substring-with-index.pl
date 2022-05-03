@@ -1,13 +1,11 @@
-
-
-use strict;
-use warnings;
-use 5.13.0;
-use Term::ANSIScreen qw(cls);
+#RB-BCS316
+#This script shows how to combine substr and index.  
+use 5.23.0;
+use Term::ANSIScreen qw(cls); # This clears the screen
 cls();
 
 
-sub fixscreen {my $counter = 0; while ($counter < 5) {say "";$counter ++;}}
+sub fixscreen {my $counter = 0; while ($counter < 5) {say "";$counter ++;}} #subroutine to clear the screen.
 fixscreen;
 
 say "Replaces the word lazy with sluggish.  Uses index to find where the word lazy is";
