@@ -1,3 +1,7 @@
+#RB-BCS316
+#This script shows an example of how to use the Term::ANSIColor module
+use 5.23.0;
+
 #This uses Term::ANSIColor to change the text attributes
 # This will not work in every terminal so if you only see normal output
 # it is the terminal and not anything you did.
