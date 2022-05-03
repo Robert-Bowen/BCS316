@@ -1,7 +1,6 @@
-#!/usr/bin/perl
-use 5.13.0;
-use warnings;
-use strict;
+#RB-BCS316
+#This script shows an example of how to substitute characters in a string.
+use 5.23.0;
 
 my $string;
 
@@ -9,8 +8,8 @@ say "What is your favorite city/pet name/place you wish to visit?";
 $string = <STDIN>;
 chomp $string;
 
-$string =~ s/o|O/0/g;
-$string =~ s/a|A/@/g;
+$string =~ s/o|O/0/g; #if we find the letter O we replace it with the number 0
+$string =~ s/a|A/@/g; #if we find the letter a we replace it with the character @
 $string =~ s/e|E/3/g;
 $string =~ s/i|I/1/g;
 $string =~ s/i|u/^/g;
