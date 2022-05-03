@@ -1,3 +1,6 @@
+#RB-BCS316
+#This script shows an example of how to use the Acme::Dice module to perform the same functionality that we coded by hand in module 2.
+use 5.23.0;
 use Acme::Dice qw(roll_dice roll_craps);
  
 # roll 3d10, honestly
