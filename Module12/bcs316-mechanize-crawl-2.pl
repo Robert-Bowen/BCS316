@@ -1,4 +1,6 @@
-#Another way to use mechanize to grab links
+#RB-BCS316
+#This script shows another way to use mechanize to grab links
+use 5.23.0;
 use Modern::Perl;
 use WWW::Mechanize;
 
