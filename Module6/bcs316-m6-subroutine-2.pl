@@ -1,6 +1,8 @@
-use strict;
-use warnings;
-use 5.13.0;
+#RB-BCS316
+#This script shows an example of subroutines.  The user is prompted for 3 numbers which sent to the subroutine average.  This subroutine
+# computes the average and returns it.
+
+use 5.23.0;
 my $n;
 my $sum;
 my $item;
