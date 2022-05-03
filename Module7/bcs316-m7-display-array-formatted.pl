@@ -1,5 +1,6 @@
-#!/usr/bin/perl
-use warnings; use strict; use 5.13.0;
+#RB-BCS316
+#Creates some arrays and then formats the data from them.
+use 5.23.0;
 my @name; my $select;
 $name [0] = "John";
 $name [1] = "Ringo";
