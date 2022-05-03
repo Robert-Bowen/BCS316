@@ -1,0 +1,11 @@
+These scripts require the following modules
+
+Modern::Perl
+WWW::Mechanize
+List::MoreUtils
+Term::ANSIColor
+Acme::123
+Time::Local
+Image::Size
+Acme::Dice 
+Term::Readkey
