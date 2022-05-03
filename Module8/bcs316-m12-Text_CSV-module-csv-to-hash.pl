@@ -1,3 +1,6 @@
+#RB-BCS316
+#This script shows an example of how to take a .csv file and covert it into hash data.
+use 5.23.0;
 use Data::Dumper;
 use Text::CSV;
 my $csv = Text::CSV->new ({binary=>1}) ;
