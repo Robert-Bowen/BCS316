@@ -1,4 +1,6 @@
-use 5.13.0;
+#RB-BCS316
+#This script shows an example of substituting an entire word in a string.
+use 5.23.0;
 #Create original string
 my $originalString = "Yahoo is the most popular search engine on the Internet";
 #Copy the original string to the $newString variable
