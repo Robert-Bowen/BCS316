@@ -1,8 +1,10 @@
-### Takes URLs found by crawler and parses them for emails
+#RB-BCS316
+#This script shows an example of how to take URLs found by crawler and parse them for emails
+#From code that accompanies the module
+use 5.23.0;
 
 use Modern::Perl;
 use WWW::Mechanize;
-use 5.18.0;
 use List::MoreUtils qw(uniq);
 my $url; 
 my $domain = "";
