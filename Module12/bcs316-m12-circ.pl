@@ -1,7 +1,5 @@
-#!/usr/bin/perl
-use 5.13.0;
-use strict;
-use warnings;
+#RB-BCS316
+#This script shows an example of how to determine the circumference of a circle.  bcs316-m12-circ-Math_Trig-module.pl shows how to do it using true pi.
 my $radius;
 say "What is the circumference of the circle? ";
 my $circumference = <STDIN>;
