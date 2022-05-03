@@ -1,3 +1,8 @@
+#RB-BCS316
+#This script shows an example of how to sort data from a file.  It uses @ARGV to bring in the filename from a command line argument.
+use 5.23.0;
+
+
 #We use the statement - no warnings 'numeric'; because the file has a defective EOF marker or 
 #Excel set something it shouldn't have.
 #While it would be cleaner to "fix" the file, I'm putting this here to show you how to deal with the
