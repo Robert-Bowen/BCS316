@@ -1,5 +1,7 @@
-#!/usr/bin/perl
-use 5.13.0;
+#RB-BCS316
+#This script shows an example of the spaceship sort which is required to properly sort numerical data.
+# as you see it doesn't work on strings.
+use 5.23.0;
 say "";
 my @numb = qw(X a 12 r 14 A 6 65 Z 44 F 91 9 10);
 say "Before Sort";
