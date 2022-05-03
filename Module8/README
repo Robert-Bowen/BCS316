@@ -1,0 +1,8 @@
+You will need 2 modules for this code to run
+
+
+Run the commands below from inside your portableshell.bat (Strawberry Perl) or if you are on MacOS/Linux you'll need to use sudo in front of them.
+cpanm install Data::Dumper
+cpanm install Text::CSV
+
+We will cover Perl module installation in more detail in Module12 of this course.
