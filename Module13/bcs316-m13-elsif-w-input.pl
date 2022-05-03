@@ -1,6 +1,7 @@
-use 5.13.0;
-use strict;
-use warnings;
+#RB-BCS316
+#This script shows an example of a elsif function.
+use 5.23.0;
+## We take user input this time for the $dino variable.  This results in the user's input matching whichever regex condition evaluates to true.
 my $dino = <STDIN>;
 chomp $dino;
 if ( ! defined $dino) {
