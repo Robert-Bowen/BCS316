@@ -2,7 +2,7 @@
 # Example code for why we need to use references when we are combining data from multiple hashes or arrays.
 @arr1 = (1, 2, 3); #Creates an array with 3 elements
 @arr2 = (4, 5, 6);
-check_size(\@arr1, \@arr2);
+check_size(\@arr1, \@arr2); #Because we pass these as references and not send them directly, it works correctly.
 
 sub check_size { 
  my ($a1, $a2) = @_;
