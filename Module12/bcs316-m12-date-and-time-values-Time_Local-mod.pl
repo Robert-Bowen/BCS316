@@ -1,6 +1,7 @@
-## Most of this can also be done with Date::Calc
-
-use 5.13.0;
+#RB-BCS316
+#This script shows an example of a long way of extracting and calculating values for a given date.
+## Most of this can also be done more easily with Date::Calc
+use 5.23.0;
 use Time::Local;
 say "What month were you born - Use 1 for January, 2 for February, etc.";
 my $mon = <STDIN>;
