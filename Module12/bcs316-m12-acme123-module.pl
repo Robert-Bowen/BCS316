@@ -1,8 +1,9 @@
+#RB-BCS316
 #Demonstrates how the Acme::123 module can print numbers from most common languages.
-#Feel free to change the 2 letter code to see if another language you are familiar with
-#	works.
+#Feel free to change the 2 letter code to see if another language you are familiar with works
 
-use 5.18.0;
+
+use 5.23.0;
 use Term::ANSIColor qw(:constants);
 use Acme::123;
 
