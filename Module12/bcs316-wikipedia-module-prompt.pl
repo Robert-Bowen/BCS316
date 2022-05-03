@@ -1,6 +1,7 @@
-use 5.13.0;
-use warnings;
-use strict;
+#RB-BCS316
+#This script shows an example of how to use the WWW::Wikipedia module to prompt the user for a string that will be used as the 
+# search term on Wikipedia
+use 5.23.0;
  my $key;
  use WWW::Wikipedia;
   my $wiki = WWW::Wikipedia->new();
