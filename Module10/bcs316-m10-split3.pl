@@ -1,7 +1,7 @@
+
+#RB-BCS316
 #This example is the same as the previous one but shows each element of the array and what it contains
-use 5.13.0;
-use warnings;
-use strict;
+use 5.23.0;
  
 my $mac = "4a:00:03:f5:97:c0";
 say "The original string was $mac.  It was split at each colon.  \nThe elements of the array that were created are:";
