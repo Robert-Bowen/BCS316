@@ -1,6 +1,12 @@
-use strict;
-use warnings;
-use 5.13.0;
+#RB-BCS316
+#This script shows an example of subroutines.  It creates 3 subroutines - Correct (if the user gets the answer correct)
+					           		        # Incorrect (if the user gets the answer incorrect)
+									# Get2Nums (generates 2 random numbers)
+									
+									#Then it asks the user what the sum is of the 2 numbers.
+									#If the user is correct, the correct subroutine is run.
+									#If the user is incorrect, the incorrect subroutine is run.
+use 5.23.0;
 
 my $num1;
 my $num2;
