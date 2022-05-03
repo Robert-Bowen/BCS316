@@ -1,5 +1,7 @@
-#!/usr/bin/perl
-use warnings; use strict; use 5.13.0;
+#RB-BCS316
+#This script shows an example of using printf to format the output of an array.
+use 5.23.0;
+
 my @name; my $select;
 $name [0] = "John";
 $name [1] = "Ringo";
