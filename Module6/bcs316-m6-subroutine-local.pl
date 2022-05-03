@@ -1,5 +1,7 @@
-use 5.13.0;
-no strict;
+#RB-BCS316
+#This script shows an example of local variables in a subroutine.
+use 5.23.0;
+
 # Global variable
 $string = "Hello, World!";
 
