@@ -9,3 +9,4 @@ Time::Local
 Image::Size
 Acme::Dice 
 Term::Readkey
+Time::HiRes
