@@ -1,17 +1,11 @@
-#Another example of substr
-
-use strict;
-use warnings;
-use 5.13.0;
-use Term::ANSIScreen qw(cls);
-cls();
+#RB-BCS316
+#This script shows another example of using the substr (substring) function.
+use 5.23.0;
 
 
-sub fixscreen {my $counter = 0; while ($counter < 5) {say "";$counter ++;}}
-fixscreen;
-
+say "";
 say "Replaces the word quick with the word naughty.  We are still manually counting the characters to get the location";
-fixscreen;
+say "";
 my $phrase = "the quick brown fox jumps over the lazy dog.  why is that darn dog so utterly lazy?";
 say "Original phrase = " . $phrase;
 
@@ -20,4 +14,4 @@ my $action = substr ($phrase, 4, 5) = "naughty";
 
 say "";
 say "The new phrase = " . $phrase;
-fixscreen;
+say "";
