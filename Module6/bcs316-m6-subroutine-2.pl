@@ -1,6 +1,6 @@
 #RB-BCS316
 #This script shows an example of subroutines.  The user is prompted for 3 numbers which sent to the subroutine average.  This subroutine
-# computes the average and returns it.
+# computes the average and displays it.  The next example shows how to use return to return the value to the main script.
 
 use 5.23.0;
 my $n;
