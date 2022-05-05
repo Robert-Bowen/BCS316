@@ -9,7 +9,9 @@ my ($n) = @_;
 say "Hi " .  $n;
 }
 
-my @names = ("Robert","Sam");
+my @names = ("Yoda","Grogu");
 foreach my $n (@names) {
   greet ($n)
 }
+
+

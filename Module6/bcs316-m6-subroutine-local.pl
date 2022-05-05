@@ -1,21 +1,22 @@
 #RB-BCS316
 #This script shows an example of local variables in a subroutine.
 use 5.23.0;
-
+#no strict;
 # Global variable
+my $string;
 $string = "Hello, World!";
 
 sub PrintHello {
 print "\n\nWe are inside PrintHello which uses a local version of ". '$string' . "\n\n";
 
    # Private variable for PrintHello function
-   local $string;
-   $string = "Hello, Perl!";
+   
+   my $string = "Hello, Perl!";
    PrintMe();
-   print "Inside the function PrintHello $string\n";
+   print "Inside the function PrintHello -  $string\n";
 }
 sub PrintMe {
-   print "Inside the function PrintMe $string\n";
+   print "Inside the function PrintMe -  $string\n";
 }
 
 sub ExtraLines{

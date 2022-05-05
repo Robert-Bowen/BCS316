@@ -9,3 +9,4 @@ my @rev=revarray (@array);
 foreach my $item (@rev)
 	{say $item;
 	}
+

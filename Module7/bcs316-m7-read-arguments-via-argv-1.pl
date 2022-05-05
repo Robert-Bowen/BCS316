@@ -4,5 +4,14 @@
 use 5.23.0;
 
 use Data::Dumper qw(Dumper);
- 
-print Dumper \@ARGV;
+print "\n";
+print Dumper \@ARGV; #Arguments passed are stored in the @ARGV array
+                     # each argument is stored in an element.
+                     # If we pass 3 arguments they will be stored in
+                     # @ARGV[0], @ARGV[1] and @ARGV[2]
+print "\n";
+
+
+
+
+
