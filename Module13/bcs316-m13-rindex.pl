@@ -4,8 +4,6 @@
 # rindex starts counting from the right but gives you the position from the left.
 #The first character of the string to look through is position 0.
 
-
-
 my $where;
 my $phrase = "the quick brown fox jumped over the lazy dog.";
 say "This will use the index and rindex functions to show where the word \"the\" appears in the phrase " . $phrase;
