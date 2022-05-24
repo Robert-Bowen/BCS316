@@ -1,0 +1,3 @@
+The two datafiles - NationalNames.csv and StarWars-4-6-Dialogue_only.txt are required for the scripts that read files. 
+
+Please be sure to put them in the same folder as the sample code.

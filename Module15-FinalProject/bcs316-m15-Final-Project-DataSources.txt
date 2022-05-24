@@ -1,0 +1,13 @@
+Some good data sources are:
+
+https://data.ny.gov/
+
+https://www.kaggle.com (requires login but you can use your Farmingdale Google Account)
+
+https://www.reddit.com/r/datasets/
+
+https://github.com/awesomedata/awesome-public-datasets#datachallenges
+
+https://www.freecodecamp.org/news/https-medium-freecodecamp-org-best-free-open-data-sources-anyone-can-use-a65b514b0f2d/
+
+https://www.data.gov/
