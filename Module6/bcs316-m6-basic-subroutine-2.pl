@@ -8,10 +8,14 @@ my ($n) = @_;
 if ($counter == 0) {say "Hi " .  $n . " - You are the first one here";}
 else {say "Hi " . $n . " - Others are here too";}
 $counter++
+          }
 
-}
-
-my @names = ("Robert","Sam");
-foreach my $n (@names) {
+my @names = ("Louise","Gene");
+foreach my $n (@names)  {
   greet ($n)
-}
+                        }
+
+
+
+
+

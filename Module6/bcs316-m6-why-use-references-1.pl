@@ -2,8 +2,8 @@
 #This script shows an example of why we must use references when we are passing 2 or more hashes or arrays to a subroutine
 use 5.23.0;
 
-@arr1 = (1, 2, 3);
-@arr2 = (4, 5, 6);
+my @arr1 = (1, 2, 3);
+my @arr2 = (4, 5, 6);
 check_size(@arr1, @arr2); 
 
 sub check_size {
@@ -14,3 +14,5 @@ sub check_size {
 }
 
 print "\n";
+
+

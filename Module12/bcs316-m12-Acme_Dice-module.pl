@@ -1,5 +1,6 @@
 #RB-BCS316
-#This script shows an example of how to use the Acme::Dice module to perform the same functionality that we coded by hand in module 2.
+#This script shows an example of how to use the Acme::Dice module to 
+# perform the same functionality that we coded by hand in module 2.
 use 5.23.0;
 use Acme::Dice qw(roll_dice roll_craps);
  
@@ -14,3 +15,4 @@ print '6 dice 6 times and weigh 4 more heavily: '.join('-', @dice)."\n";
 # shoot craps, with loaded dice
 my $craps_roll = roll_craps( bias => 30 );
 print "Craps roll: $craps_roll\n";
+

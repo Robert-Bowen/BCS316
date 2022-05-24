@@ -10,9 +10,9 @@ $newString =~ s/Yahoo/Google/;
 print "The original string was - $originalString \n";
 print "The new string is - $newString \n";
 
-
-
-#
 # You can also do it this way and save yourself from having to copy the variable.
 #(my $newOptional = $originalString) =~ s/Yahoo/Google/;
 #print "The other way of doing the substitution resulted in the string $newOptional\n";
+
+
+

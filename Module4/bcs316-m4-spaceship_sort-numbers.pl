@@ -12,6 +12,8 @@ print "@numb\n";
 say "After Sort w/ Spaceship";
 @numb = sort {$a <=> $b} (@numb);
 print "@numb\n";
-say "After Sort w/ Spaceship - reverse (switch a and b)";
+say "After Sort w/ Spaceship - 
+    reverse (switch a and b)";
 @numb = sort {$b <=> $a} (@numb);
-print "@numb\n";
+print "@numb\n\n";
+
